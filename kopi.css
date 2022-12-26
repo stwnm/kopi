@@ -1,0 +1,126 @@
+body {
+  background-color: ;
+}
+.container {
+  overflow: hidden;
+  box-sizing: border-box;
+  width: auto;
+  margin-left: -20px;
+  margin-top: -20px;
+  margin-right: -8px;
+}
+
+.header {
+  background-color: chocolate;
+}
+.header ul li {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 80px;
+}
+
+ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+li h3 a {
+  text-decoration: underline;
+}
+
+.gambar_kopi {
+  background-image: url("kopi.png");
+  width: auto;
+  height: 800px;
+  background-position-y: -100px;
+  margin-top: -24px;
+}
+
+.gambar_kopi span h1 {
+  padding-top: 200px;
+  text-align: center;
+  color: white;
+}
+
+.gambar_kopi span h2 {
+  text-align: center;
+  color: white;
+}
+
+.gambar_kopi .bijak1 {
+  font-size: 18px;
+  padding-left: 200px;
+  color: white;
+  text-align: center;
+}
+
+.gambar_kopi .bijak2 {
+  font-size: 18px;
+  padding-left: 200px;
+  color: white;
+  text-align: center;
+}
+
+.gambar_kopi .bijak3 {
+  font-size: 18px;
+  padding-left: 200px;
+  color: white;
+  text-align: center;
+}
+
+#main_kiri {
+  margin-left: 50px;
+  border-radius: 20px;
+  position: absolute;
+  width: 45%;
+  background-color: chocolate;
+  height: 500px;
+  box-shadow: 10px 5px 5px grey;
+}
+
+#main_kiri h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+#main_kiri h3,
+.main_kanan h3 {
+  line-height: 50px;
+  margin-left: 30px;
+}
+
+.main_kanan {
+  border-radius: 20px;
+  margin-right: 50px;
+  float: right;
+  width: 45%;
+  background-color: chocolate;
+  height: 500px;
+  box-shadow: 10px 5px 5px grey;
+}
+
+.main_kanan h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+.footer {
+  position: relative;
+  background-color: chocolate;
+  margin-top: 500px;
+  height: 50px;
+}
+
+.footer span {
+  text-decoration: underline;
+  color: blue;
+}
+
+.footer h3 {
+  color: whitesmoke;
+  padding-top: 10px;
+  text-align: center;
+}
